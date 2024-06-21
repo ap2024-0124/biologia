@@ -1,0 +1,29 @@
+#informe{margin:5px;padding:5px;border-style:solid;border-width:thin;border-color:#000000;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:12px;}
+#cabeceira{height:30px;border-bottom-width:thin;border-bottom-style:dotted;border-bottom-color:#000000;}
+#titulo{font-size:24px;float:left;}
+#data{font-size:12px;float:right;padding-top:0px;}
+#tempoInicio{clear:both;text-align:right;margin-top:5px;margin-bottom:5px;}
+#tempoFin{clear:both;text-align:right;margin-top:5px;margin-bottom:5px;}
+table,td{border: 1px solid #CCC; border-collapse: collapse;font: small/1.5 "Tahoma", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;}
+table{border:none;border:1px solid #CCC;}
+thead th,
+tbody th{background: #FFF url(images/th_bck.gif) repeat-x; color: #666;padding: 5px 10px;border-left: 1px solid #CCC;}
+tbody th{background: #fafafb;border-top: 1px solid #CCC; text-align: left;font-weight: normal;}
+tbody tr td{padding: 5px 10px;color: #666;}
+tbody tr:hover{background: #FFF url(images/tr_bck.gif) repeat;}
+tbody tr:hover td{color: #454545;}
+tfoot td,
+tfoot th{border-left: none;border-top: 1px solid #CCC;padding: 4px;background: #FFF url(foot_bck.gif) repeat;color: #666;}
+caption{text-align: left;font-size: 120%;padding: 10px 0;color: #666;}
+table a:link{color: #666;}
+table a:visited{color: #666;}
+table a:hover{color: #003366;text-decoration: none;}
+table a:active{color: #003366;}
+.hotspot { padding:1px; border-bottom:1px dotted #900; cursor:pointer}
+#tt {position:absolute; display:block; background-color:#FFFFFF; width:100%;}
+#info{color:#FFFFFF;}
+.tr_group {cursor: pointer;font-size: 18px;background: linear-gradient(to bottom, rgba(230,240,163,1) 0%,rgba(210,230,56,1) 34%,rgba(195,216,37,1) 56%,rgba(145,150,47,1) 100%);color: white;}
+.tr_user {cursor: pointer;font-size: 14px;background: rgba(195,216,37,0.4);}
+#ttcont{width: 500px;}
+.cancelBut{float: right;color: red; font-size: 20px;cursor: pointer;margin:0; padding: 0 2px 0 2px; border-width: 1px;}
+.cancelBut:hover{ margin:0; border-color:black; background-color: white;color:black;}

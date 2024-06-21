@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--ArdoraPaquete_Autoavaliacion-->
+<!--Created by Ardora - www.webardora.net-->
+<head><meta charset="utf-8"/>
+<title></title>
+<link href="avalia.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="avalia.js"></script>
+</head><body>
+<div id="informe">
+   <div id="cabeceira">
+      <div id="titulo">
+
+      </div>
+      <div id="data">
+      <script> document.write(dameData());</script>
+      </div>
+   </div>
+   <div id="tempoInicio">
+      <script> document.write(window.opener.horaInicio);</script>
+    </div>
+    <table width="100%" border="0"><thead><tr>
+   <th scope="col" width="4%">Nº</th>
+   <th scope="col" width="28%">Actividad</th>
+   <th scope="col" width="14%">Ejecuciones</th>
+   <th scope="col" width="22%">Estado</th>
+   <th scope="col" width="22%">intentos:</th>
+   <th scope="col" width="32%">puntos:</th>
+   </tr></thead>
+   <tr>
+   <td>1</td>
+   <td>Seres vivos</td>
+   <td><span class="hotspot" onmouseover="javascript:dameInforme(0)" onmouseout="tooltip.hide();"><script>document.write(contaIntentos(0))</script></span></td>
+   <td><img id="ima0" src="images/help.png"/></td>
+   <td><script>document.write(dameIntentos(0))</script></td>
+   <td><script>document.write(damePuntos(0))</script></td>
+   </tr>
+   <tr>
+   <td>2</td>
+   <td>Especialidades médicas</td>
+   <td><span class="hotspot" onmouseover="javascript:dameInforme(1)" onmouseout="tooltip.hide();"><script>document.write(contaIntentos(1))</script></span></td>
+   <td><img id="ima1" src="images/help.png"/></td>
+   <td><script>document.write(dameIntentos(1))</script></td>
+   <td><script>document.write(damePuntos(1))</script></td>
+   </tr>
+   <tr>
+   <td colspan="3">&nbsp;</td>
+   <td><strong><script>document.write(dameCorrectas())</script></strong> / 2 </td>
+   <td>&nbsp;</td>
+   <td><strong><script>document.write(damePuntosTotal())</script></strong></td>
+   </tr>
+</table>
+<div id="tempoFin"><script>document.write(dameHora())</script></div>
+</div></body></html>
